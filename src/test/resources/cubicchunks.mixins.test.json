@@ -11,9 +11,12 @@
         "conformVisibility": true
     },
     "mixins": [
+        "common.server.level.ChunkHolderTestAccess",
+        "common.server.level.ChunkMapTestAccess",
         "common.server.level.ChunkTrackerTestAccess",
         "common.server.level.CubicDistanceManagerTestAccess",
-        "common.server.level.MinecraftServerTestAccess"
+        "common.server.level.MinecraftServerTestAccess",
+        "common.server.level.ServerChunkCacheTestAccess"
     ],
     "client": [],
     "server": []

@@ -2,6 +2,7 @@
     "required": true,
     "package": "io.github.opencubicchunks.cubicchunks.mixin.forge",
     "refmap": "CubicChunks-refmap.json",
+    "plugin": "io.github.opencubicchunks.cubicchunks.mixin.ASMConfigPlugin",
     "compatibilityLevel": "JAVA_17",
     "minVersion": "0.8",
     "injectors": {
@@ -10,8 +11,7 @@
     "overwrites": {
         "conformVisibility": true
     },
-    "mixins": [
-    ],
+    "mixins": [],
     "client": [],
     "server": []
 }

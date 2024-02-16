@@ -19,6 +19,8 @@ import io.github.opencubicchunks.cubicchunks.server.level.CubicTaskPriorityQueue
 import io.github.opencubicchunks.cubicchunks.world.level.chunklike.CloPos;
 import net.minecraft.server.level.ChunkHolder;
 import net.minecraft.server.level.ChunkTaskPriorityQueueSorter;
+import net.minecraft.util.Unit;
+import net.minecraft.util.thread.ProcessorHandle;
 import net.minecraft.world.level.ChunkPos;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
